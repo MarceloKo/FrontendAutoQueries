@@ -1,0 +1,33 @@
+{
+  "name": "frontautodoc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "update-query": "kubb generate"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.74.7",
+    "axios": "^1.9.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@kubb/cli": "^3.10.0",
+    "@kubb/core": "^3.10.0",
+    "@kubb/plugin-client": "^3.10.2",
+    "@kubb/plugin-oas": "^3.10.0",
+    "@kubb/plugin-react-query": "^3.10.0",
+    "@kubb/plugin-ts": "^3.10.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.26.1",
+    "vite": "^6.3.1"
+  }
+}
